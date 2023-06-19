@@ -1,0 +1,20 @@
+.navList {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: min-content;
+  grid-column-gap: 12px;
+  margin: 0;
+  padding: 12px;
+  list-style: none;
+
+  background-color: orange;
+}
+
+.link {
+  padding: 8px 12px;
+
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+  line-height: 21px;
+}
