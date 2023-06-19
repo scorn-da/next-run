@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import Link from "next/link";
+import MainContainer from "components/MainContainer/MainContainer";
 
 const Users = ({ users }) => {
   return (
+    <MainContainer title='Пользователи'>
       <div>
         <h1>Список пользователей</h1>
         <ul>
@@ -17,6 +19,7 @@ const Users = ({ users }) => {
           })}
         </ul>
       </div>
+    </MainContainer>
   );
 };
 
